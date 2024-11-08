@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 style="text-align: center;">Our Departments</h1>
+<hr>
+
+<div style="text-align: center;margin-left: 200px;width:70%;height: 120px;background-color: rgb(59, 214, 155);">
+    <h1 style="color: rgb(0, 0, 0);padding-top: 20px;">{{ dept.dep_name }}</h1>
+    <p style="color: rgb(0, 0, 0);padding-top: 10px;">{{ dept.description }}</p>
+
+</div><br>
+
+{% endblock %}

@@ -1,0 +1,9 @@
+li.hover{
+    background-color: rgb(125, 255, 19);
+    border-radius: 10px;
+}
+/* Department */
+.heading{
+    text-align:center;
+    color: rgb(8, 56, 88);
+}
